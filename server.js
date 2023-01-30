@@ -134,7 +134,7 @@ app.post('/imageurl', (req, res) => {
       req.body.input      
     ).then(data => {
         return res.json(data)
-    }).catch(err => res.status(400).json('Can\t work with API'))
+    }).catch(err => res.status(400).json('Can\'t work with API'))
 
 })
 
